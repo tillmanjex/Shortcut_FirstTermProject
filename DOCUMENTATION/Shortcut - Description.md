@@ -1,0 +1,3 @@
+Virtual reality provides an opportunity to experience digital artworks in new ways. But the VR environment in this sense should not mimic the paradigms of art consumption we know and trust by rebuilding art galleries and viewing cinemas as we know them. We should be more imaginative. "Shortcut" is an exploration of this new opportunity. It offers a space between reality and dreamscape, where curiosity and surrealism are integrated into the act of viewing graphical artworks and listening to music. 
+
+- Tillman Jex, Creative Technologies (MA)
