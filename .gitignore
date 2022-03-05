@@ -1,0 +1,25 @@
+// General
+.DS_Store
+
+// Processing
+applet
+application.linux-arm64
+application.linux-armv6hf
+application.linux32
+application.linux64
+application.windows32
+application.windows64
+application.macosx
+/out
+/out1
+/out2
+/out3
+/out4
+
+
+// VS Code
+*.code-workspace
+
+// Obsidian
+.obsidian
+
