@@ -152,17 +152,21 @@ Here I'm playing with exaggerated water shader settings:
 
 I think this is more in the right direction - keeps it more surreal.
 
-#### 2021-02-07: VR Chat?
+#### 2022-02-07: VR Chat?
 What about uploading the level to VR Chat as a presentational medium?
 Would also make delivery and access to the project less troublesome. 
 
-#### 2021-02-08: Video Test as Texture Tests
+#### 2022-02-08: Video Test as Texture Tests
 ![[../../ATTACHMENTS/VidTestOnSphere.png]]
 Video test on sphere. Super easy. Just need to be conscious of how the video wraps around an object, and design my processing sketches around that.   
 I would think that when an object exits the screen, to then redrawn it on the other side will work totally fine - as at least by default, unity is wrapping the video window by width around an object.
 
 ![[../../ATTACHMENTS/WaterBlendIdea.png]]
 Trialed using a rotated water texture to blend the main ocean out in an interesting way. At the intersection with the main ocean it looks nice, but it has a visible edge in the air, which detracts from the effect. Not worth it. 
+
+#### 2022-03-07
+Imported the processing sketches into the VR world. The sphere sketch "Grow Roots" is working well. I'm happy with the effect.    
+![grow roots on sphere](../IMAGES/GrowRoots_OnSphere.jpg)
 
  # ToDo
  Take low tone out of footstep. 
