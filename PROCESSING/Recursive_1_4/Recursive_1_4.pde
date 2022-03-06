@@ -48,30 +48,32 @@ void draw() {
 
 
 
-  curveSetA(25, modMatrix[0], modMatrix[1], modMatrix[2], modMatrix[3], modMatrix[4], modMatrix[5]);
+  curveSetA(15, modMatrix[0], modMatrix[1], modMatrix[2], modMatrix[3], modMatrix[4], modMatrix[5]);
 
-  saveFrame("out/####.tiff");
+  //saveFrame("out/####.tiff");
 }
 
 void curveSetA(int level, float m0, float m1, float m2, float m3, float m4, float m5) {
+  float m0map = map(m0, 601, -601, 15, 100);
   float m3map = map(m3, -2000, 2000, 0, 150);
-  float m4map = map(m4, -2000, 2000, 0, 150);
+  float m4map = map(m4, -2000, 2000, 150, 0);
   float m5map = map(m5, -2000, 2000, 0, 150);
 
   push();
   translate(width / 2, height / 2);
   //ghostTrails(m3map, 0, 0);
 
-  stroke(m3map, m4map, m5map, map(m0, 601, -601, 15, 100));
-  fill(m5map - 50, 0, m4map, map(m0, -601, 601, 15, 100));
+  stroke(m3map, m0map, m5map, m0map );
+  fill(m5map - 50, 0, m4map, m0map);
   beginShape();
-  curveVertex(width / 2, height / 2);
-  curveVertex(width / 2, height / 2);
+  curveVertex(width / 2, height / 2 - m3map);
+  curveVertex(width / 2, height / 2 - m3map);
   curveVertex(width / 4 + m0, height / 4 - m1);
   curveVertex(width - 107, 0);
   curveVertex(107 + m4, height - 107 - m5);
   curveVertex(width * 0.75 + m2, height / 4 - m3);
-  curveVertex(width / 2, height / 2);
+  curveVertex(200, 200);
+  curveVertex(width / 2, height / 2 - m3);
   endShape();
   pop();
 

@@ -115,14 +115,17 @@ I finally figured out that to get the more varied / wild random movement of each
 
 
 #### 2022-03-05
-For the final sketch I thought of returning to the recursion idea, as I really want to experiment with hypnotic visuals and patterns. To present it interestingly in VR, I thought of creating a floating concave hemisphere, with a "U" section cut out of the bottom.    
-The user would walk into the hollow space of this "U" and be fully surrounded by the inside surface of the hemisphere, enabling an effective viewing environment to play with depth and perception as the user's full field of view will be used. 
+For the final sketch I thought of returning to the recursion idea, as I really want to experiment with hypnotic visuals and patterns. At some point I would like to recreate a callidoscopic hallucination I had once when I was around eight years old, that I can still vividly remember.     
+To present this sketch interestingly in VR, I thought of creating a floating concave hemisphere, with a "U" section cut out of the bottom. The user would walk into the hollow space of this "U" and be fully surrounded by the inside surface of the hemisphere, enabling an effective viewing environment to play with depth and perception as the user's full field of view will be used. 
 
 Pretty easy to achieve in the end. Despite how much of a cheap trick this is, with a bit more fine tuning and good design intent it will suit the concave viewing space well. And it will also buy me some needed time to devote time to the VR implementation and to polish everything up including documentation.
 ![recursive 1.0](../PROCESSING/Recursive_1_0/Recursive1.0.gif)   
 [Recursive 1.0 Code](../PROCESSING/Recursive_1_0/Recursive_1_0.pde)
 
-
+#### 2022-03-06
+It's gotten pretty psychedelic now... I've tried to fine tune it so that the callidoscopic effect doesn't become too predictable. Modulating the alpha and colour values independant of the rotational / scaling movement was essential, as it created some asynchronos phasing in the design elements. What I do like about this though is the colour scheme the stroke trails make. Despite this being a bit of a cheap trick, it was a good moment for me to explore recursion and pattern generation. Also because it fits theamatically with idea behind the VR environment being a dream. The music I will include in the hemispherical viewing space will also be designed to suit this experience.
+![recursive1.1](../PROCESSING/Recursive_1_4/Recursive1.4.gif)
+[Recursive 1.4 Code](../PROCESSING/Recursive_1_4/Recursive_1_4.pde)
 
 
 
