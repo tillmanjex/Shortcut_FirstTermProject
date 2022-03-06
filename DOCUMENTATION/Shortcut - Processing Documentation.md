@@ -110,7 +110,7 @@ I think this is acceptable for the sphere. I will put another half day of work i
 
 Experimentation proved fruitful. 
 I finally figured out that to get the more varied / wild random movement of each individual root, I had to vary the acceleration PVector with by multiplying it with a random variable. As well as this, added some modulation to alpha and size. Ended up achieving close to what I wanted (if you look closely, the roots do avoid one another for the most part). Happy to move on now!    
-![grow roots 1.6](../PROCESSING/GrowRoots_1_6/Exports/GrowRoots1.6.2.gif)   
+![grow roots 1.6](../PROCESSING/GrowRoots_1_6/Exports/GrowRoots1.6.gif)
 [Grow Roots 1.6 Code Folder](../PROCESSING/GrowRoots_1_6/)
 
 
