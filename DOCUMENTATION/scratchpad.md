@@ -6,3 +6,20 @@
         root[i].collisionDetect();
       }
     }
+
+    Still To Do:
+
+    - basement videos
+    -     - add ui for teleportation
+    - add music
+    - fix up footsteps sound
+
+
+  -  No wind sound in basement
+  -  make sure to collect my own scripting for documentation
+
+
+    - change footsteps sound for basement
+    - 
+    - change color scheme of recursive sketch
+    

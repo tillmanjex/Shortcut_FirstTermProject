@@ -9,15 +9,15 @@ Got through the first chapter of Nature of Code, which culminated with accelerat
 I went further with the idea and created another ellipse object following a random path, which many other ellipses are drawn to. The idea is to create a swarm effect and perhaps gain inspiration for drawing out emergent behaviour. 
 
 
-![vector sketch idea 1.0](../ASSETS/MoverSketch_1.0.gif)   
+![vector sketch idea 1.0](../IMAGES/MoverSketch_1.0.gif)   
 [Mover Sketch 1.0 Code folder](../PROCESSING/Mover_1/)   
 
  
-![Mover Sketch Idea 1.1](../ASSETS/MoverSketch_1.1.gif)   
+![Mover Sketch Idea 1.1](../IMAGES/MoverSketch_1.1.gif)   
 [Mover Sketch 1.1 code folder](../PROCESSING/Mover_1_1/)  
 
  
-![mover sketch idea 1.2](../ASSETS/MoverSketch1_2.gif)   
+![mover sketch idea 1.2](../IMAGES/MoverSketch1_2.gif)   
 [Mover sketch 1.2 code folder](../PROCESSING/Mover_1_2/)  
 
 #### 2022-02-28
@@ -33,7 +33,7 @@ Came to this idea which could fit the floor canvas well as it may create a sense
 Considered how to approach a sketch design for the floating sphere in the VR world. The canvas gets wrapped horizontally, making a vertical edge on one side of the sphere. In order to get around this edge being visible I should make sure that whatever I sketch, should draw continuously front one edge, to its opposing edge (ie teleportation). 
 
 I've found the examples of fractal design and recursive functions and think they could suit well for the sphere. 
-![basic fractal](../ASSETS/basic_fractal.png)
+![basic fractal](../IMAGES/basic_fractal.png)
 
 Considered the idea of following some "natural" random behaviour and growing a root system over the sphere until it becomes fully entangled. I would like to make it so that the roots will never cross paths with one another to try out some emergence pattern variations. 
 
@@ -60,7 +60,7 @@ Something like: check current xy position against all previous individual xy val
 #### 2022-03-02: Accidental Step Backwards
 So after an entire day of figuring out dealing with dynamically adding and getting from PVector arrays within a class, and checking positions against actual current positions, I accidentally remade a random walker albeit with 5x as much code...
 
-![accidental walker](../ASSETS/accidental_walker.png)
+![accidental walker](../IMAGES/accidental_walker.png)
 
 What was making it simply become a random walker was that I was checking the current position against the previous position *immiediately*. This meant that it was trying to take a different path at every frame as its current position was always its last position.    
 As well as that, the choice of random path involved a range of numbers that gave too wild of result (haven't entirely figured out why). See line 72 in [Root.pde](../PROCESSING/GrowRoots_1_1/Root.pde).
@@ -86,17 +86,17 @@ I changed the above functions and values to this, and it's behaving more toward 
   }
   ```
 
-  ![grow_roots1](../ASSETS/grow_roots1.png)   
-  ![grow_roots2](../ASSETS/grow_roots2.png)
+  ![grow_roots1](../IMAGES/grow_roots1.png)   
+  ![grow_roots2](../IMAGES/grow_roots2.png)
   Some emergent behaviour already showing. Above the target (xy coordinates that the root wants to move to) is set to (width / 2, height / 2), by changing the target to (width / 2, height):      
-  ![grow_roots3](../ASSETS/grow_roots3.png)
+  ![grow_roots3](../IMAGES/grow_roots3.png)
 
 #### 2022-03-03: Getting Roots
 In the interest of time I've given up for the moment on getting the root tip to avoid crossing its previous drawn path (stem). For a while it seemed that I was getting good results. The root would noticibly grow against the edges of its previous path, if it came close to it, but then at some point it would cross itself. Even while crossing itself, it would still be triggering the collision detection statement that had until then observably been working.    
 I tried asking in the processing forum, and was told that it could be a glitch where the ellipse is actually moving between the previously drawn ellipses (which consititute its previous path / stem). But I don't think this is the case, as the if statement includes an offset of the ellipses own radius, so it shouldn't have any space at all to get in between the cracks of the previous path...
 
 I've kept the collision check and am now using it to spawn extra objects when true. The result is still looking good and some emergent behaviour is starting to arise:    
-![grow roots 4](../ASSETS/grow_roots4.png)   
+![grow roots 4](../IMAGES/grow_roots4.png)   
 [Grow Roots 1.3 Code Folder](../PROCESSING/GrowRoots_1_3/)   
 
 ![grow roots 4.1](../PROCESSING/GrowRoots_1_4/grow%20roots%201.4.0.gif)   
