@@ -50,7 +50,7 @@ void draw() {
 
   curveSetA(15, modMatrix[0], modMatrix[1], modMatrix[2], modMatrix[3], modMatrix[4], modMatrix[5]);
 
-  //saveFrame("out/####.tiff");
+  //saveFrame("out/####.png");
 }
 
 void curveSetA(int level, float m0, float m1, float m2, float m3, float m4, float m5) {

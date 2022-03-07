@@ -67,5 +67,5 @@ void draw() {
 
 
 
-  saveFrame("out1/#####.tiff");
+  // saveFrame("out1/#####.tiff");
 }

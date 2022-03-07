@@ -82,7 +82,7 @@ Tried character controller and driver, but didn't work.
  
  Added wind zone and also trialed the idea of a "dream tree" (pictured below).  
 
-![[../../ATTACHMENTS/CentralTreeAdded.png]]
+![central tree added](../IMAGES/CentralTreeAdded.png)
 
  #### 2022-01-05: Reference for Avatar Design
 [Dust storm tutorial](https://www.youtube.com/watch?v=c_FJ2L3EvJM). Maybe this can also be a cheap quick hack to get the "sand walker" VR hand prefab going?
@@ -98,7 +98,7 @@ Added dust particle system but made it surreal, in that the dust particles are r
 Figuring out how to creatively deal with the edge of the map is difficult. I had the idea of making a sand storm at the edges of the map, but I can't seem to create a dust particle system thick enough. I may need to create many instances of smaller particle systems, as it seems like scaling the shapes of the dust particle systems means that there is too much space for too few partical instances (even when putting the particle count to stupidly high numbers. I don't really see a change).
 
 Reinvigorated my idea of the liquid mirror by creating a portal like vertical water edge to the map. It looks cool, but when in VR, it kind of looks like it's an graphics glitch, and you can still see through the water, which makes the effect less interesting.
-![[../../ATTACHMENTS/WorldEdgeIdea1.png]]
+![world edge 1](../IMAGES/WolrdEdge1.png)
 
 Do I need to add a Capsule Collider to XR rig?
 
@@ -109,7 +109,7 @@ Prefabs don't dissapear now.
 Added a human character prefab to the scene. Quite astounding how much more immersive the whole scene feels when you have a human figure in view. 
 I would like to try and animate him, so that he runs into view, creating this sudden shift of perception in the mind of the user (from fake world, to something a little more tangible...).
 
-![[../../ATTACHMENTS/SpookyCharacter.png]]
+![Spooky Character](../IMAGES/SpookyCharacter.png)
 Ooooooh yeah. Spooky. Now we're getting somewhere!
 
 Spooky space child should have trail of ethereal childrens choir melodies eminating from him. 
@@ -148,7 +148,7 @@ public class MoveTo : MonoBehaviour
 Experimenting further with creating an interesting map boundry. 
 An endless ocean looks nice, but it's a bit of a basic idea and almost cheap trick to just maroon someone on a desert island...  
 Here I'm playing with exaggerated water shader settings:
-![[../../ATTACHMENTS/WolrdEdge_1.png]]
+![world edge 2](../IMAGES/WorldEdge2.png)
 
 I think this is more in the right direction - keeps it more surreal.
 
