@@ -168,6 +168,12 @@ Trialed using a rotated water texture to blend the main ocean out in an interest
 Imported the processing sketches into the VR world. The sphere sketch "Grow Roots" is working well. I'm happy with the effect.    
 ![grow roots on sphere](../IMAGES/GrowRoots_OnSphere.jpg)
 
+Rendering video on objects is easy in Unity if the concept is simple (ie covering all surfaces of an object). The idea of rendering my [recursive sketch](../PROCESSING/Recursive_1_0/Recursive1.0.gif) on the inside of a convex hemisphere turned out to be way too problematic, so I ditched the idea.    
+I subsequently the thought to simulate a portal / teleportation idea with the same sketch, which was also going to be a good creative sollution for getting people back into the map who fall off the edge and into the "underworld" (ie run into the center of the hypnotic spiral and spawn back at the central tree). I spent a good 3 - 4 hours trying all the various approaches to trigger collision respawning in Unity. But regretably nothing worked. 
+
+Falling into the "underworld" is an intended part of the experience, so I then used the recursive sketch as an invitation to do this. I layered multiple renders of the video on transparent planes inside an arched tunnel, and also gathered all the little spirit children in the tunnel, making them walk slowly out of it. I hope people get intrigued enough to walk through the tunnel - inevetably falling off the edge.     
+![tunnel1](../IMAGES/tunnel1.jpg)
+
  # ToDo
  Take low tone out of footstep. 
  Add reverb to windsound(?)
