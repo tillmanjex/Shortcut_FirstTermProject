@@ -157,11 +157,11 @@ What about uploading the level to VR Chat as a presentational medium?
 Would also make delivery and access to the project less troublesome. 
 
 #### 2022-02-08: Video Test as Texture Tests
-![[../../ATTACHMENTS/VidTestOnSphere.png]]
+![vid test on sphere](../IMAGES/VidTestOnSphere.png)
 Video test on sphere. Super easy. Just need to be conscious of how the video wraps around an object, and design my processing sketches around that.   
 I would think that when an object exits the screen, to then redrawn it on the other side will work totally fine - as at least by default, unity is wrapping the video window by width around an object.
 
-![[../../ATTACHMENTS/WaterBlendIdea.png]]
+![water blend idea](../IMAGES/WaterBlendIdea.png)
 Trialed using a rotated water texture to blend the main ocean out in an interesting way. At the intersection with the main ocean it looks nice, but it has a visible edge in the air, which detracts from the effect. Not worth it. 
 
 #### 2022-03-07
