@@ -19,7 +19,7 @@ class Mover {
     location = new PVector(random(width), random(height));
     velocity = new PVector(0, 0);
     sizeMod = new PVector(-0.01, 0.07);
-    topSpeed = 10;
+    topSpeed = 30;
     lifespan = 253.0;
   }
 

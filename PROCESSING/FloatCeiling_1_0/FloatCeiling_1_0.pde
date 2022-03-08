@@ -11,7 +11,7 @@ float angle = 0;
 
 void setup() {
   frameRate(60);
-  size(1000, 1000, P3D);
+  size(3000, 1000, P3D);
 
   for (int i = 0; i < movers.length; i++) {
     movers[i] = new Mover();
