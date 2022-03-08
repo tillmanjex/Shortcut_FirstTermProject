@@ -174,6 +174,16 @@ I subsequently the thought to simulate a portal / teleportation idea with the sa
 Falling into the "underworld" is an intended part of the experience, so I then used the recursive sketch as an invitation to do this. I layered multiple renders of the video on transparent planes inside an arched tunnel, and also gathered all the little spirit children in the tunnel, making them walk slowly out of it. I hope people get intrigued enough to walk through the tunnel - inevetably falling off the edge.     
 ![tunnel1](../IMAGES/tunnel1.jpg)
 
+### 2022-03-08
+Added all the music and audio today and it's really made the world come together! Feels very mysterious and dream like now. Also touched up the sand footstep sounds and did some post-processing in Izotope RX7 so that it sounds much more 3D (it's not really working to use the inbuilt spatialisation of unity for the footsteps as they're directly beneath the main camera view and is therefore creating some weird effects).
+
+Re worked the recursive sketch so that it looked better inside the tunnel. Namely, reduced the amount of recursive shapes and changed colour pallette to work better with the red waves behind the canvases.    
+I also finished building the "underworld", also exporting the "Float Ceiling" sketch at a wider format with a furter Z axis in the processing sketch - to stop the balls reaching the edge of the screen and getting cut off on the edge of the canvas. Now they really look like they're launching out of space!
+
+Implemented some scripting to only play sand footstep sounds when walking on the sand terrain (significant help from Sebastian Wilhelm for this). Also started on the teleportation / continuous movement ingame UI, but am really considering not including it as using teleportation in this world really takes away from the feeling of realism. I had originally considered to provide the option of teleportation to accomodate peopl with motion sickness, but the environment is so sparse that I don't think motion sickness will be much of a problem at all. 
+
+
+
  # ToDo
  Take low tone out of footstep. 
  Add reverb to windsound(?)

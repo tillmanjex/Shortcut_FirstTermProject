@@ -9,17 +9,23 @@
 
     Still To Do:
 
-    - basement videos
-    -     - add ui for teleportation
-    - add music
-    - fix up footsteps sound
+
+  - add ui for teleportation
+  - record video
+  - prepare documentation
+  - redo recursive sketch
+  -     - change footsteps sound for basement
 
 
-  -  No wind sound in basement
   -  make sure to collect my own scripting for documentation
 
+asset dependencies for exported package
+xr interaction toolkit
+input manager
+terrain tools
+unity ui
+input system
+xr core utilities
 
-    - change footsteps sound for basement
-    - 
-    - change color scheme of recursive sketch
-    
+coding game: https://www.youtube.com/watch?v=kb5SsFWZAto
+
