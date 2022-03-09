@@ -182,6 +182,10 @@ I also finished building the "underworld", also exporting the "Float Ceiling" sk
 
 Implemented some scripting to only play sand footstep sounds when walking on the sand terrain (significant help from Sebastian Wilhelm for this). Also started on the teleportation / continuous movement ingame UI, but am really considering not including it as using teleportation in this world really takes away from the feeling of realism. I had originally considered to provide the option of teleportation to accomodate peopl with motion sickness, but the environment is so sparse that I don't think motion sickness will be much of a problem at all. 
 
+### 2022-03-09
+In the end I'm not going to include an option for switching between teleportation and continous movement. After integrating a UI to switch between the two, the entire experience lost a lot of its identity. It became too "observer" like and created a perceptual barrier between being in the experience, but simultaneously outside of it as well.   
+I'm quite confident that those who do experience motion sickness won't have such a bad time as the spaces in the environment are very open and without many objects in them, meaning that there is less stimuli for creating motion sickness. 
+
 
 
  # ToDo

@@ -12,7 +12,7 @@ float angle = 0;
 void setup() {
   frameRate(60);
   size(3000, 1000, P3D);
-  camera(width/2.0, height/2.0, (height/2.0) / tan(PI*30.0 / 180.0), width/2.0, height/2.0, 0, 0, 1, 0);
+  camera(width/2.0, height/2.0, (height/2.0) / tan(PI*30.0 / 180.0) + 400, width/2.0, height/2.0, 0, 0, 1, 0);
 
   for (int i = 0; i < movers.length; i++) {
     movers[i] = new Mover();
@@ -22,6 +22,12 @@ void setup() {
 
 void draw() {
   background(0);
+  
+  push();
+  translate(width / 2, height / 2, 0);
+  fill(0);
+  //sphere(100);
+  pop();
 
   //targetC.display();
  
@@ -32,5 +38,5 @@ void draw() {
   }
   
 
-  //saveFrame("out/frame#####.png");
+  saveFrame("out/frame#####.png");
 }
