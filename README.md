@@ -14,15 +14,29 @@ This repository includes:
 - Documentation of Unity development
 - Development log of Unity development
 - Supporting imagery and gifs for documentation
+- The unity project files are hosted on [OneDrive](https://filmuniversitaetde-my.sharepoint.com/:f:/g/personal/tillman_j_schaeuble_filmuniversitaet_de/ErAAuJxWeR5KvFu1e_77fjwB3Hp5Lk1BQD79tmiCEfk4fA?e=njEhRY)
 
 ## Running The Project
-The Unity files and VR build can be found in OneDrive [here](https://filmuniversitaetde-my.sharepoint.com/:f:/g/personal/tillman_j_schaeuble_filmuniversitaet_de/ErAAuJxWeR5KvFu1e_77fjwB3Hp5Lk1BQD79tmiCEfk4fA?e=njEhRY). There are three sets of files and three options to account for different scenarios. 
+In the OneDrive folder, there are three sets of files offering three options to account for different scenarios. 
 
-### Opening The Project or Viewing Project Files
- The folder titled *VRShortcut-Master* is the full Unity project folder. You can download this project folder and open it with Unity. The project is however configured for use with a HP Reverb G2 (ie, windows mixed reality setup). I have not been able to test with another headset to see if it works out of the box, but it is somewhat likely as it was built using the OpenXR unity plugin, which is cross platform for VR headsets.    
- Secondarily, this folder also allows you to view the project files and structure online / locally without having to open anything in Unity.
+### 1. Running the Unity Build
+The folder *VRShortcut_1.0_Finished* is the VR ready Unity build of the final version.
+To run the build:
+1. Download the folder
+2. Connect your headset and launch its respective application (eg Windows Mixed Reality Portal for the HP headset)
+3. Run the VR_Template.exe
 
-## Opening The Project - Package Install for VR Capability Required
+### In Game
+- The left joystic controls movement
+- The right joystick controls snap rotation
+- The left secondary (non system) menu button reveals the teleportation on / off UI.
+- The right controllers selector ray cast will only register on UI elements.
+- The left controllers selector ray cast will only register on walkable terrains. 
+
+### 2. Opening The Project or Viewing Project Files
+ The folder titled *VRShortcut-Master* is the full Unity project folder. You can download this project folder and open it with Unity. The project is however configured for use with a HP Reverb G2 (ie, windows mixed reality setup). I have not been able to test with another headset to see if it works out of the box, but it is somewhat likely as it was built using the OpenXR unity plugin, which is a cross platform sollution for VR headsets. Additionally, this folder also allows you to view the project files and structure online or locally without having to open anything in Unity.
+
+## 3. Opening The Project via Unity Package
 In case OneDrive corrupts files on upload / download, and you would still like to open the project in Unity, I've also exported a .unitypackage file. You will be able to import this into a new 3D unity scene, navigate around and assess scripts, setups and content. It will however not be possible to run the scene in VR without installing extra packages and configuring the project settings. 
 
 To import the package into Unity, follow these steps: 
