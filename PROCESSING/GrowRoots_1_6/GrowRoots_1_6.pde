@@ -21,7 +21,7 @@ float modScalar = 1;
 ArrayList<Root> roots;
 
 void setup() {
-  size (900, 900, P2D);
+  size (2000, 2000, P2D);
   frameRate(30);
   background(0);
 
@@ -67,5 +67,5 @@ void draw() {
 
 
 
-  // saveFrame("out1/#####.tiff");
+ // saveFrame("out2/#####.png");
 }

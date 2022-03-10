@@ -62,7 +62,7 @@ So after an entire day of figuring out dealing with dynamically adding and getti
 
 ![accidental walker](../IMAGES/accidental_walker.png)
 
-What was making it simply become a random walker was that I was checking the current position against the previous position *immiediately*. This meant that it was trying to take a different path at every frame as its current position was always its last position.    
+What was making it simply become a random walker was that I was checking the current position against the previous position *immediately*. This meant that it was trying to take a different path at every frame as its current position was always its last position.    
 As well as that, the choice of random path involved a range of numbers that gave too wild of result (haven't entirely figured out why). See line 72 in [Root.pde](../PROCESSING/GrowRoots_1_1/Root.pde).
 
 I changed the above functions and values to this, and it's behaving more toward what I want:    
@@ -92,8 +92,8 @@ I changed the above functions and values to this, and it's behaving more toward 
   ![grow_roots3](../IMAGES/grow_roots3.png)
 
 ### 2022-03-03: Getting Roots
-In the interest of time I've given up for the moment on getting the root tip to avoid crossing its previous drawn path (stem). For a while it seemed that I was getting good results. The root would noticibly grow against the edges of its previous path, if it came close to it, but then at some point it would cross itself. Even while crossing itself, it would still be triggering the collision detection statement that had until then observably been working.    
-I tried asking in the processing forum, and was told that it could be a glitch where the ellipse is actually moving between the previously drawn ellipses (which consititute its previous path / stem). But I don't think this is the case, as the if statement includes an offset of the ellipses own radius, so it shouldn't have any space at all to get in between the cracks of the previous path...
+In the interest of time I've given up for the moment on getting the root tip to avoid crossing its previous drawn path (stem). For a while it seemed that I was getting good results. The root would noticeably grow against the edges of its previous path, if it came close to it, but then at some point it would cross itself. Even while crossing itself, it would still be triggering the collision detection statement that had until then observably been working.    
+I tried asking in the processing forum, and was told that it could be a glitch where the ellipse is actually moving between the previously drawn ellipses (which constitute its previous path / stem). But I don't think this is the case, as the if statement includes an offset of the ellipses own radius, so it shouldn't have any space at all to get in between the cracks of the previous path...
 
 I've kept the collision check and am now using it to spawn extra objects when true. The result is still looking good and some emergent behaviour is starting to arise:    
 ![grow roots 4](../IMAGES/grow_roots4.png)   
@@ -115,7 +115,7 @@ I finally figured out that to get the more varied / wild random movement of each
 
 
 ### 2022-03-05
-For the final sketch I thought of returning to the recursion idea, as I really want to experiment with hypnotic visuals and patterns. At some point I would like to recreate a callidoscopic hallucination I had once when I was around eight years old, that I can still vividly remember.     
+For the final sketch I thought of returning to the recursion idea, as I really want to experiment with hypnotic visuals and patterns. At some point I would like to recreate a kaleidoscopic hallucination I had once when I was around eight years old, that I can still vividly remember.     
 To present this sketch interestingly in VR, I thought of creating a floating concave hemisphere, with a "U" section cut out of the bottom. The user would walk into the hollow space of this "U" and be fully surrounded by the inside surface of the hemisphere, enabling an effective viewing environment to play with depth and perception as the user's full field of view will be used. 
 
 Pretty easy to achieve in the end. Despite how much of a cheap trick this is, with a bit more fine tuning and good design intent it will suit the concave viewing space well. And it will also buy me some needed time to devote time to the VR implementation and to polish everything up including documentation.
@@ -123,11 +123,19 @@ Pretty easy to achieve in the end. Despite how much of a cheap trick this is, wi
 [Recursive 1.0 Code](../PROCESSING/Recursive_1_0/Recursive_1_0.pde)
 
 ### 2022-03-06
-It's gotten pretty psychedelic now... I've tried to fine tune it so that the callidoscopic effect doesn't become too predictable. Modulating the alpha and colour values independant of the rotational / scaling movement was essential, as it created some asynchronos phasing in the design elements. What I do like about this though is the colour scheme the stroke trails make. Despite this being a bit of a cheap trick, it was a good moment for me to explore recursion and pattern generation. Also because it fits theamatically with idea behind the VR environment being a dream. The music I will include in the hemispherical viewing space will also be designed to suit this experience.
+It's gotten pretty psychedelic now... I've tried to fine tune it so that the kaleidoscopic effect doesn't become too predictable. Modulating the alpha and colour values independent of the rotational / scaling movement was essential, as it created some asynchronous phasing in the design elements. What I do like about this though is the colour scheme the stroke trails make. Despite this being a bit of a cheap trick, it was a good moment for me to explore recursion and pattern generation. Also because it fits thematically with idea behind the VR environment being a dream. The music I will include in the hemispherical viewing space will also be designed to suit this experience.
 ![recursive1.1](../PROCESSING/Recursive_1_4/Recursive1.4.gif)
 [Recursive 1.4 Code](../PROCESSING/Recursive_1_4/Recursive_1_4.pde)
 
+### 2022-03-07
+Found a good trick to create looping gifs from sketches that do not loop by design.   
+1. Export with saveFrame
+2. Duplicate the exports folder holding the frames/images
+3. In the duplicated folder, sort the images by creation date newest to oldest - this effectively reverses their order comapred to their sequential numbering.
+4. Select all files, rightclick, rename.
+5. Select 'format' from dropdown. 
+6. Rename to the same prepended name, but starting number = the number of the last frame + 1
+7. eg, if the last frame from saveFrame is 499, then the number to start renaming from would be 500
+8. Move all the newly formatted files into the original folder of saved frames and make a Processing movie with the movie maker tool
 
-
-### Running Notes
-Recurssion looks cool: https://processing.org/examples/recursion.html
+What this effectively does is make a duplicate set of frames, but in reversed order. Then by adding them to the original folder you get a sequence from start to end and then back to the start again. Because the frames are all numbered sequentially, the Processing movie maker will be able to make a movie out of them, which is effectively a loop from start to end, then back to start. 
