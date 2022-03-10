@@ -20,7 +20,8 @@
 | //         | Start surrounding entire map with water                          | 0.15    |
 |            | ---Nothing noteworthy until next version---                      |         |
 | 2022-03-06 | Processing sketches added                                        | 0.17    |
-| 2022-03-07 | Remodeled a lot of the scene and built basement                   | 0.18    |
+| 2022-03-07 | Remodeled a lot of the scene and built basement                  | 0.18    |
 | 2022-03-08 | A lot of weird bugs with UI interaction.                         | <0.22   |
+| 2022-03-09 | Recreating UI for teleportation etc                              | 0.24    |
 | 2022-03-09 | Final version for presentation                                   | 1.0     |
 |            |                                                                  |         |
