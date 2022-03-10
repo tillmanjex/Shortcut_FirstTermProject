@@ -10,7 +10,7 @@ I went further with the idea and created another ellipse object following a rand
 
 
 ![vector sketch idea 1.0](../IMAGES/MoverSketch_1.0.gif)   
-[Mover Sketch 1.0 Code folder](../PROCESSING/Mover_1/)   
+[Mover Sketch 1.0 Code folder](../PROCESSING/Mover_1_0/)  
 
  
 ![Mover Sketch Idea 1.1](../IMAGES/MoverSketch_1.1.gif)   
@@ -25,8 +25,8 @@ Worked on the mover sketch but modified to P3D to make drawing depth easier.
 Came to this idea which could fit the floor canvas well as it may create a sense of standing on a transparent ceiling and looking down into infinite depth. 
 
 
-![FloatCeiling 1.0 gif](../PROCESSING/FloatCeiling_1_0/FloatCeiling1.0.gif)   
-[FloatCeiling 1.0](../PROCESSING/FloatCeiling_1_0/FloatCeiling_1_0.pde)
+![FloatCeiling 1.2 gif](../PROCESSING/FloatCeiling_1_2/FloatCeiling1.2.0.gif)  
+[FloatCeiling 1.2 Code Folder](../PROCESSING/FloatCeiling_1_2)
 
 
 ### 2022-03-01: Fractal / Recursive
@@ -38,7 +38,7 @@ I've found the examples of fractal design and recursive functions and think they
 Considered the idea of following some "natural" random behaviour and growing a root system over the sphere until it becomes fully entangled. I would like to make it so that the roots will never cross paths with one another to try out some emergence pattern variations. 
 
 
-![grow roots 1.0 gif](../processing/GrowRoots_1_0/growRoots1.0.gif)   
+![grow roots 1.0 gif](../PROCESSING/GrowRoots_1_0/growRoots1.0.gif)
 [Grow roots 1.0 code folder](../PROCESSING/GrowRoots_1_0/)   
 
 Proving to be incredibly complicated to create a collision detection with drawn paths... 
@@ -110,8 +110,8 @@ I think this is acceptable for the sphere. I will put another half day of work i
 
 Experimentation proved fruitful. 
 I finally figured out that to get the more varied / wild random movement of each individual root, I had to vary the acceleration PVector with by multiplying it with a random variable. As well as this, added some modulation to alpha and size. Ended up achieving close to what I wanted (if you look closely, the roots do avoid one another for the most part). Happy to move on now!    
-![grow roots 1.6](../PROCESSING/GrowRoots_1_6/Exports/GrowRoots1.6.gif)
-[Grow Roots 1.6 Code Folder](../PROCESSING/GrowRoots_1_6/)
+![grow roots 1.6](../PROCESSING/GrowRoots_1_6/Exports/GrowRoots1.6.gif)   
+[Grow Roots 1.6 Code Folder](../PROCESSING/GrowRoots_1_6/)   
 
 
 ### 2022-03-05
@@ -124,8 +124,8 @@ Pretty easy to achieve in the end. Despite how much of a cheap trick this is, wi
 
 ### 2022-03-06
 It's gotten pretty psychedelic now... I've tried to fine tune it so that the kaleidoscopic effect doesn't become too predictable. Modulating the alpha and colour values independent of the rotational / scaling movement was essential, as it created some asynchronous phasing in the design elements. What I do like about this though is the colour scheme the stroke trails make. Despite this being a bit of a cheap trick, it was a good moment for me to explore recursion and pattern generation. Also because it fits thematically with idea behind the VR environment being a dream. The music I will include in the hemispherical viewing space will also be designed to suit this experience.
-![recursive1.1](../PROCESSING/Recursive_1_4/Recursive1.4.gif)
-[Recursive 1.4 Code](../PROCESSING/Recursive_1_4/Recursive_1_4.pde)
+![recursive1.1](../PROCESSING/Recursive_1_4/Recursive1.4.gif)   
+[Recursive 1.4 Code](../PROCESSING/Recursive_1_4/Recursive_1_4.pde)   
 
 ### 2022-03-07
 Found a good trick to create looping gifs from sketches that do not loop by design.   

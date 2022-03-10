@@ -61,9 +61,9 @@ Tried character controller and driver, but didn't work.
  Questions: How to add processing sketches on a sphere?
  
  ### 2021-12-18: References
- [Youtube: Add video in Unity, also on a sphere](https://www.youtube.com/watch?v=KG2aq_CY7pU)
- [Youtube: Export 360 video from Unity](https://www.youtube.com/watch?v=9WEjMckJPFY)
- [Unity Recorder Package](https://docs.unity3d.com/Packages/com.unity.recorder@2.0/manual/RecorderWindow.html)
+ [Youtube: Add video in Unity, also on a sphere](https://www.youtube.com/watch?v=KG2aq_CY7pU)   
+ [Youtube: Export 360 video from Unity](https://www.youtube.com/watch?v=9WEjMckJPFY)   
+ [Unity Recorder Package](https://docs.unity3d.com/Packages/com.unity.recorder@2.0/manual/RecorderWindow.html)   
  
  ### 2022-01-04: Audio Work
  Added ambient wind audio and footstep sound effects. 
@@ -167,7 +167,7 @@ Falling into the "underworld" is an intended part of the experience, so I then u
 ### 2022-03-08
 Added all the music and audio today and it's really made the world come together! Feels very mysterious and dream like now. Also touched up the sand footstep sounds and did some post-processing in Izotope RX7 so that it sounds much more 3D (it's not really working to use the inbuilt spatialisation of unity for the footsteps as they're directly beneath the main camera view and is therefore creating some weird effects).
 
-Re worked the recursive sketch so that it looked better inside the tunnel. Namely, reduced the amount of recursive shapes and changed colour palette.    
+Reworked the recursive sketch so that it looked better inside the tunnel. Namely, reduced the amount of recursive shapes and changed colour palette.    
 ![shortcut tunnel](../IMAGES/ShortcutTunnel.png)
 I also finished building the "underworld", also exporting the "Float Ceiling" sketch at a wider format with a further Z axis in the processing sketch - to stop the balls reaching the edge of the screen and getting cut off on the edge of the canvas. Now they really look like they're launching out of space!    
 ![float ceiling in scene](../IMAGES/FloatCeilingInScene.png)
