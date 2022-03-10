@@ -38,7 +38,7 @@ I've found the examples of fractal design and recursive functions and think they
 Considered the idea of following some "natural" random behaviour and growing a root system over the sphere until it becomes fully entangled. I would like to make it so that the roots will never cross paths with one another to try out some emergence pattern variations. 
 
 
-![grow roots 1.0 gif](../PROCESSING/GrowRoots_1_0/growRoots1.0.gif)
+![grow roots 1.0 gif](../PROCESSING/GrowRoots_1_0/growRoots1.0.gif)   
 [Grow roots 1.0 code folder](../PROCESSING/GrowRoots_1_0/)   
 
 Proving to be incredibly complicated to create a collision detection with drawn paths... 
