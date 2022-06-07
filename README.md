@@ -7,8 +7,6 @@ Virtual reality provides an opportunity to experience digital artworks in new wa
 
 [Here you can watch a demonstration of the project on Youtube.](https://youtu.be/iWeQOEhx4YA)
 
-https://youtu.be/iWeQOEhx4YA
-
 ## Navigation
 This repository includes:
 - [Documentation of Processing](https://github.com/tillmanjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20Processing%20Documentation.md) sketch designs
