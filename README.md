@@ -1,4 +1,4 @@
-# "Shortcut" - First Term Project WS2122 - TJ Schaeuble
+# "Shortcut" - First Term Masters Project
 
 ![tree planet](IMAGES/ShortcutTreePlanet.png)
 
