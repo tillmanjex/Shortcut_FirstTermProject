@@ -9,8 +9,8 @@ Virtual reality provides an opportunity to experience digital artworks in new wa
 
 ## Navigation
 This repository includes:
-- [Documentation of Processing](https://github.com/tillmanjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20Processing%20Documentation.md) sketch designs
-- [Documentation of Unity](https://github.com/tillmanjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20VR%20Documentation.md) development
-- [Development log](https://github.com/tillmanjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20Dev%20Log.md) development
+- [Documentation of Processing](https://github.com/tjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20Processing%20Documentation.md) sketch designs
+- [Documentation of Unity](https://github.com/tjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20VR%20Documentation.md) development
+- [Development log](https://github.com/tjex/Shortcut-FirstTermProject/blob/main/DOCUMENTATION/Shortcut%20-%20Dev%20Log.md) development
 
   
